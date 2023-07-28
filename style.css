@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:rgb(255, 59, 59);
+}
+.todo-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.input-container img {
+    position:absolute;
+    padding:5px;
+}
+.input-container, .add-btn {
+    display:inline-block;
+}
+.input-container input{
+    height:25px;
+    width:200px;
+    border:none;
+    border-radius:3px;
+    padding:0px 30px;
+}
+.add-btn,.deleteAll-btn{
+    color:rgb(182, 179, 179);
+    border:none;
+    background-color:rgb(7, 7, 7);
+    padding:5 35px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.tasks-list {
+    list-style:none;
+}
+.tasks-list li {
+    padding: 0 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:30px;
+    width:450px;
+    border:3px solid black;
+    border-radius:3px;
+    box-shadow: 1px 1px 1px black;
+    margin-top:5px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(116, 116, 116);
+    font-size:18px;
+    font-family:monospace;
+}
+.tasks-list img {
+    cursor:pointer;
+}
+.taks-list p {
+    width:50%;
+}
